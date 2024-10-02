@@ -22,7 +22,7 @@ list_of_files = [
     "schema.yaml",
     "main.py",
     "app.py",
-    "requirements.txt",
+    "pyproject.toml",
     "setup.py",
     "research/trials.ipynb",
     "templates/index.html"

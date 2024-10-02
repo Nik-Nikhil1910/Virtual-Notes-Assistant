@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "Virtual_Notes_Assistant"
+version = "0.0.0"
+description = "A virtual notes assistant application."
+authors = [{name = "Nikhil Sharma", email = "nikhilkondinya@gmail.com"}]
+dependencies = [
+    "pandas",
+    "tensorflow",
+    "keras",
+    "librosa",
+    "notebook",
+    "numpy",
+    "scikit-learn",
+    "matplotlib",
+    "python-box==6.0.2",
+    "pyYAML",
+    "ensure==1.0.2",
+    "joblib",
+    "types-PyYAML",
+    "Flask",
+    "Flask-Cors"
+]
+dynamic = ["readme"]
+
+[project.urls]
+"Bug Tracker" = "https://github.com/Nik-Nikhil1910/Virtual-Notes-Assistant/issues"

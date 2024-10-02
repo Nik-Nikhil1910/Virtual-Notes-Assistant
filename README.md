@@ -19,11 +19,11 @@
 
 
 ```bash
-conda create -n virtualnotesenv python=3.11.5 -y 
+conda create -n virtualnotesassistantenv python=3.11.5 -y 
 ```
 
 ```bash
-conda activate virtualnotesenv
+conda activate virtualnotesassistantenv
 ```
 
 
@@ -74,7 +74,7 @@ Now open up your local host 0.0.0.0:8080
 
 	
 ## 3. Create ECR repo to store/save docker image
-    - Save the URI: YOUR_AWS_ACCOUNT_ID.dkr.ecr.us-east-1.amazonaws.com/mlproject
+    - Save the URI: YOUR_AWS_ACCOUNT_ID.dkr.ecr.us-east-1.amazonaws.com/Virtual_Notes
 
 	
 ## 4. Create EC2 machine (Ubuntu) 
@@ -112,7 +112,7 @@ Now open up your local host 0.0.0.0:8080
 
     AWS_ECR_LOGIN_URI =  YOUR_AWS_ACCOUNT_ID.dkr.ecr.ap-south-1.amazonaws.com
 
-    ECR_REPOSITORY_NAME = simple-app
+    ECR_REPOSITORY_NAME = VirtualNotes-app
 
 
 git config --global user.email "nikhilkondinya@gmail.com"
